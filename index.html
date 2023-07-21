@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portofolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="assets/logo/pngegg.png">
+    <!-- Remix icons Link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav><img src="assets/logo/pngegg.png" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a></li>
+                    <li>
+                        <a href="#about">About</a></li>
+                    <li>
+                        <a href="#services">Services</a></li>
+                    <li>
+                        <a href="#project">Project</a></li>
+                    <li>
+                        <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <img src="assets/img profile/Profile.png">
+                <p>Frontend Developer | Web development</p>
+                <h1>Hi I'm <span>Rio</span><br />From Indonesia</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT START -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"><img src="assets/img profile/pict.png"></div>
+                <div class="about-col-2"><img src="">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="tittles">Hi, I'm Rio Djuefanie Saputra, Studying informatics at Bina Sriwijaya, Palembang. I'm passionate about programming and tecnology and love to use my skills to create innovative solutions through code</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('techstack')">Tech Stack</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('otherskill')">Other Skill</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="techstack">
+                        <ul>
+                            <li><img src="assets/Skills/Frontend.png"></li>
+                        </ul>
+                        <ul>
+                            <img class="other" src="assets/Skills/other.png"></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>⚫️ 2014-2016</span><br/>Senior high school Sriguna from south sumatera, Palembang</li>
+                        </ul>
+                        <ul>
+                            <li><span>⚫️ 2017-2020</span><br/>University Bina Sriwijaya from south sumatera, Palembang | informatics management major.<br />"Technologies. HTML, CSS, Laravel, MySql".</li>
+                        </ul>
+
+                        <ul>
+                            <li><span>⚫️ Other Education</span><br/>▫️ Solo Learn Lesson Python 5<br />▫️ Edespert Lesson ReactJs<br />▫️ Edespert Lesson Flutter<br />▫️ Edespert Lesson Microsoft Excel</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>Arubalympics X aptikom from Taiwan</span><br/>Selected to participate in the 2020 Arubalympics competition held by Aptikom and Aruba in order to increase Link and Match between University Informatika Indonesia, which
+                                was attended by 298 selected University Informatika Indonesia, with the theme "The intelligence campus network 4.0". </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="otherskill">
+                        <ul>
+                            <li><span><img class="skills" src="assets/other skill icon/word icon.png"></span><br/>SmartArt, Grafik, Table of contents, Letters.</li>
+                        </ul>
+                        <ul>
+                            <li><span><img class="skills" src="assets/other skill icon/excel icon.png"></span><br/>Pivot Table, Data Linking, Vlookup.</li>
+                        </ul>
+                        <ul>
+                            <li><span><img class="skills" src="assets/other skill icon/power point icon.png"></span><br/>Create presentations, create graphic presentations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT END -->
+
+    <!-- Service start -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Service</h1>
+            <div class="services-list">
+                <div><i class="fa-solid fa-code fa-flip" style="color: #c4abbf;"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum provident accusamus, autem modi quas a.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div><i class="fa-solid fa-crop-simple fa-flip" style="color: #c4abbf;"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum provident accusamus, autem modi quas a.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service end -->
+
+    <!-- Project Start -->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/Project/ecommerce.jpg" />
+                    <div class="layer">
+                        <h3>Ecommerce</h3>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/Project/Restaurant.jpg" />
+                    <div class="layer">
+                        <h3>Restaurant</h3>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/Project/School registration.jpg" />
+                    <div class="layer">
+                        <h3>School Registration</h3>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/Project/WOE2023.jpeg" />
+                    <div class="layer">
+                        <h3>Week of Engineering</h3>
+                        <p></p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <a href="#" class="btn-p">Show more</a>
+            </div>
+        </div>
+        <!-- Project end -->
+
+        <!-- Contact Start -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Riodsaputra@protonmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone"></i>081366145249</p>
+                        <div class="social-icons">
+                            <a href="https://facebook.com/">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://instagram.com/r.y.o.32/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@rsdalesia?_t=8dz5qDNW52d&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Ryokali12/"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form><input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Created By Rio | @2023<br/><br/><i class="fa-solid fa-sun"></i> Massachusetts Institute of Tecnology <i class="fa-solid fa-sun"></i></p>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- Scroll Up -->
+        <div class="scroll-up">
+            <a href="#"><i class="ri-arrow-up-double-line"></i></a>
+        </div>
+        <!-- Scroll End -->
+
+
+        <!-- Link Java Script -->
+        <script src="js/script.js"></script>
+</body>
+
+</html>
